@@ -1,0 +1,10 @@
+# Environment files
+node_modules/
+content/data/
+content/images/
+.env
+
+# OS-specific files
+.DS_Store
+Desktop.ini
+Thumbs.db
