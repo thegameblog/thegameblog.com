@@ -32,11 +32,29 @@ if (process.env.MANDRILL_USERNAME) {
   };
 }
 
+var storage;
+if (process.env.S3_BUCKET) {
+  storage = {
+    active: 's3',
+    s3: {
+      bucket: process.env.S3_BUCKET,
+      accessKeyId: process.env.S3_ACCESS_KEY_ID,
+      secretAccessKey: process.env.S3_SECRET_ACCESS_KEY
+    }
+  };
+} else if (process.env.CLOUDINARY_URL) {
+  storage = {
+    active: 'cloudinary'
+  };
+}
+
 module.exports = {
   production: {
     url: process.env.SITE_URL,
     mail: mail,
     database: database,
+    storage: storage,
+    fileStorage: !!storage,
     server: {
       host: process.env.HOST || '0.0.0.0',
       port: process.env.PORT || '2368'
@@ -49,6 +67,8 @@ module.exports = {
     url: process.env.SITE_URL || 'http://localhost',
     mail: mail,
     database: database,
+    storage: storage,
+    fileStorage: !!storage,
     server: {
       host: process.env.HOST || 'localhost',
       port: process.env.PORT || '2368'
