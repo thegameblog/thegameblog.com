@@ -13,6 +13,7 @@
   "website": "http://games.gessojs.com",
   "repository": "https://github.com/gessojs/thegameblog",
   "logo": "http://games.gessojs.com/content/images/logo.png",
+  "success_url": "/ghost",
   "env": {
     "SITE_URL": {
       "description": "The URL of the public site. This is required for Ghost for links from the admin panel to your blog, and external links like those in emails and RSS feeds, to be correct.",
