@@ -28,7 +28,7 @@
   "homepage": "http://games.gessojs.com/",
   "dependencies": {
     "ghost": "^0.6.0",
-    "ghost-s3-storage": "^0.2.0",
+    "ghost-s3-storage": "joeyespo/ghost-s3#fix-return-url",
     "node-env-file": "^0.1.7"
   }
 }
