@@ -26,6 +26,9 @@
     "url": "https://github.com/gessojs/thegameblog/issues"
   },
   "homepage": "http://games.gessojs.com/",
+  "engines": {
+    "node": "0.12.x"
+  },
   "dependencies": {
     "ghost": "^0.6.2",
     "ghost-s3-storage": "^0.2.1",
