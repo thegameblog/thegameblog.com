@@ -51,3 +51,19 @@ canvas {
 .post-footer .share {
   top: 4rem;
 }
+
+.read-next {
+  margin-top: 0;
+}
+
+.read-next-story {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex: 1;
+}
+.read-next-story .post:before {
+  content: "Play This Next \BB";
+}
+.read-next-story.prev .post:before {
+  content: "\AB  You Might Enjoy";
+}
