@@ -52,6 +52,17 @@ canvas {
   top: 4rem;
 }
 
+.source-code {
+  color: #9EABB3;
+  font-size: 12px;
+  margin: -24px auto 0 auto;
+  width: 640px;
+  text-align: right;
+}
+.source-code a {
+  color: #9EABB3;
+}
+
 .read-next {
   margin-top: 0;
 }
