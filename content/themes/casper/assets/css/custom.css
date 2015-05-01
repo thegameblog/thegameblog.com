@@ -1,7 +1,14 @@
-canvas {
+.game canvas {
+  display: block;
+  border: 1px solid #eee;
+  margin: 0 auto 1.75em auto;
+  width: 640px;
+}
+.game .fluid-width-video-wrapper {
   display: block;
   margin: 0 auto 1.75em auto;
-  border: 1px solid #eee;
+  padding-top: 480px !important;
+  width: 640px;
 }
 
 .no-cover.post-head.main-header {
