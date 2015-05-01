@@ -1,0 +1,40 @@
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #eee;
+}
+
+.no-cover.post-head.main-header {
+  height: 62px;
+  position: absolute;
+}
+
+.main-nav {
+  padding: 12px 12px 0 12px;
+  margin: 0;
+}
+
+.post-template .post-header {
+  width: 640px;
+  margin: 16px auto 4rem auto;
+}
+
+.post-template .post-title {
+  font-size: 24px;
+  float: left;
+}
+
+.post-template .post-meta {
+  float: right;
+  padding: 2px 0;
+}
+
+.post-footer {
+  margin: 4rem 0 0 0;
+  padding: 4rem 0 0 0;
+  border-top: #EBF2F6 1px solid;
+}
+
+.post-footer .share {
+  top: 4rem;
+}
