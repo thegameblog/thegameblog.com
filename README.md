@@ -10,6 +10,6 @@ Blog powered by [Ghost][]. Games powered by [Gesso][].
 
 
 [deploy]: https://heroku.com/deploy
-[home]: http://games.gessojs.com
+[home]: http://gameblog.gessojs.com/
 [ghost]: https://github.com/TryGhost/Ghost
 [gesso]: https://github.com/gessojs/gessojs

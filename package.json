@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/gessojs/thegameblog/issues"
   },
-  "homepage": "http://games.gessojs.com/",
+  "homepage": "http://gameblog.gessojs.com/",
   "engines": {
     "node": "0.12.x"
   },
