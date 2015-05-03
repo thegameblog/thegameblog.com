@@ -42,6 +42,13 @@
   border-top: #EBF2F6 1px solid;
 }
 
+/* MailChimp signup form */
+.post-subscribe .post-embed-signup { font-size: 14px; }
+.post-subscribe form { padding-top: 0 !important; padding-bottom: 0 !important; }
+.post-subscribe h2 { margin: 0 0 12px 0 !important; }
+.post-subscribe .mc-field-group { padding-bottom: 0 !important; }
+.post-subscribe .button { margin-bottom: 0 !important; }
+
 .post-subscribe .rss {
   float: right;
   margin: -3px 4% 0 0;
@@ -52,13 +59,6 @@
 .post-subscribe .rss:hover {
   color: #50585D;
 }
-
-/* MailChimp signup form */
-.post-subscribe .post-embed-signup { font-size: 14px; }
-.post-subscribe form { padding-top: 0 !important; padding-bottom: 0 !important; }
-.post-subscribe h2 { margin-top: 0 !important; }
-.post-subscribe .mc-field-group { padding-bottom: 0 !important; }
-.post-subscribe .button { margin-bottom: 0 !important; }
 
 .post-footer {
   margin: 4rem 0 0 0;
