@@ -42,6 +42,17 @@
   border-top: #EBF2F6 1px solid;
 }
 
+.post-subscribe .rss {
+  float: right;
+  margin: -3px 4% 0 0;
+  font-size: 1.4rem;
+  color: #BBC7CC;
+  text-decoration: none;
+}
+.post-subscribe .rss:hover {
+  color: #50585D;
+}
+
 /* MailChimp signup form */
 .post-subscribe .post-embed-signup { font-size: 14px; }
 .post-subscribe form { padding-top: 0 !important; padding-bottom: 0 !important; }
