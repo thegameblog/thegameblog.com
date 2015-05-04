@@ -11,7 +11,7 @@
     "blog"
   ],
   "website": "http://gameblog.gessojs.com/",
-  "repository": "https://github.com/gessojs/thegameblog",
+  "repository": "https://github.com/thegameblog/gameblog.gessojs.com",
   "logo": "https://s3.amazonaws.com/thegameblog/logo.png",
   "success_url": "/ghost",
   "env": {

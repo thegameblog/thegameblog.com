@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gessojs/thegameblog"
+    "url": "https://github.com/thegameblog/gameblog.gessojs.com"
   },
   "keywords": [
     "games",
@@ -23,7 +23,7 @@
   "author": "Joe Esposito <joe@joeyespo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gessojs/thegameblog/issues"
+    "url": "https://github.com/thegameblog/gameblog.gessojs.com/issues"
   },
   "homepage": "http://gameblog.gessojs.com/",
   "engines": {
