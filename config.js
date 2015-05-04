@@ -1,6 +1,7 @@
 var path = require('path');
 var env = require('node-env-file');
 
+// Pull from local .env file if it exists
 env(path.join(__dirname, '.env'), {overwrite: true, raise: false});
 
 var database;
