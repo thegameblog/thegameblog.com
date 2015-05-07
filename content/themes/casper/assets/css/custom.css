@@ -1,14 +1,19 @@
+/* Canvas games */
 .game canvas {
   display: block;
   border: 1px solid #eee;
   margin: 0 auto 1.75em auto;
   width: 640px;
+  max-width: 100%;
 }
+
+/* Flash games */
 .game .fluid-width-video-wrapper {
   display: block;
   margin: 0 auto 1.75em auto;
   padding-top: 480px !important;
   width: 640px;
+  max-width: 100%;
 }
 
 .no-cover.post-head.main-header {
