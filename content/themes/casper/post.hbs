@@ -5,6 +5,10 @@
 
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
+{{#contentFor 'meta'}}
+<meta name="twitter:creator" content="@joeyespo" />
+<meta name="twitter:image" content="{{image}}" />
+{{/contentFor}}
 
 <header class="main-header post-head no-cover">
     <nav class="main-nav clearfix">
