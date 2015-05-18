@@ -30,7 +30,7 @@
     "node": "0.12.x"
   },
   "dependencies": {
-    "ghost": "^0.6.2",
+    "ghost": "^0.6.3",
     "ghost-s3-storage": "^0.2.1",
     "node-env-file": "^0.1.7"
   }
