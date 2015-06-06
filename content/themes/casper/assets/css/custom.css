@@ -6,6 +6,19 @@
   width: 640px;
   max-width: 100%;
 }
+.game img {
+  display: block;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  width: 640px;
+  max-width: 100%;
+  position: inherit;
+  left: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
 
 /* Flash games */
 .game .fluid-width-video-wrapper {
