@@ -1,3 +1,8 @@
+@font-face {
+  font-family: arcadepix;
+  src: url(https://s3.amazonaws.com/thegameblog/arcadepix.ttf) format("truetype");
+}
+
 /* Canvas games */
 .game canvas {
   display: block;
@@ -22,6 +27,10 @@
   padding-top: 480px !important;
   width: 640px;
   max-width: 100%;
+}
+
+.home-template .page-title {
+  font-family: arcadepix, "Open Sans", sans-serif;
 }
 
 .no-cover.post-head.main-header {
