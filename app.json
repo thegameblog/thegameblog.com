@@ -10,8 +10,8 @@
     "canvas",
     "blog"
   ],
-  "website": "http://gameblog.gessojs.com/",
-  "repository": "https://github.com/thegameblog/gameblog.gessojs.com",
+  "website": "http://thegameblog.com/",
+  "repository": "https://github.com/thegameblog/thegameblog.com",
   "logo": "https://s3.amazonaws.com/thegameblog/logo.png",
   "success_url": "/ghost",
   "env": {
